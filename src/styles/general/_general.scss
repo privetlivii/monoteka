@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'YanoneKaffeesatz';
+  src: url('../fonts/YanoneKaffeesatz-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YanoneKaffeesatz';
+  src: url('../fonts/YanoneKaffeesatz-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $clearSansBold;
+  src: url('../fonts/ClearSans-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: $clearSansLight;
+  src: url('../fonts/ClearSans-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: 'YanoneKaffeesatz', Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  color: #000;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 1700px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  @media (min-width: 576px) {
+    max-width: 576px;
+  }
+  @media (min-width: 768px) {
+    max-width: 768px;
+  }
+  @media (min-width: 992px) {
+    max-width: 992px;
+  }
+  @media (min-width: 1200px) {
+    max-width: 1200px;
+  }
+  @media (min-width: 1700px) {
+    max-width: 1700px;
+  }
+}
+
+.project-link {
+  height: 55px;
+  width: 180px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #2154cf;
+  border-radius: 90px;
+}
+
+.tab-panel {
+  display: block;
+height: 0;
+
+  &.active {
+    height: auto;
+  }
+}
+
+/* bootstrap hack: fix content width inside hidden tabs */
+.tab-content > .tab-pane, .pill-content > .pill-pane {
+  display: block;
+  height: 0;
+}
+.tab-content > .active, .pill-content > .active {
+  height: auto;
+}
+
+.hide-placeholder {
+  @include hidePlaceholder {
+    opacity: 1;
+    font-size: 14px;
+    line-height: 16px;
+    transition: opacity .3s;
+  }
+
+  &:focus {
+    @include hidePlaceholder {
+      opacity: 0;
+      transition: opacity .3s;
+    }
+  }
+}

@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Monoteka</title>
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/styles.min.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#d77b1f">
+    <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<header class="container header-container">
+    <div class="header-catalog">
+        <a href="#" class="header-catalog__menu">каталог</a>
+        <ul class="header-menu__list-first">
+            <li class="header-menu__item"><a href="#" class="header-menu__link">компания</a></li>
+            <li class="header-menu__item"><a href="#" class="header-menu__link">новости</a></li>
+        </ul>
+    </div>
+
+    <a href="#" class="header-logo">
+        <img class="header-logo__image" src="img/logo.svg" alt="">
+    </a>
+
+    <div class="header-menu">
+        <ul class="header-menu__list-second">
+            <li class="header-menu__item"><a href="#" class="header-menu__link">Поставщикам</a></li>
+            <li class="header-menu__item"><a href="#" class="header-menu__link">Контакты</a></li>
+            <li class="header-menu__item"><a href="#" class="header-menu__link">кабинет</a></li>
+            <li class="header-menu__item"><a href="#" class="header-menu__link">компания</a></li>
+            <li class="header-menu__item"><a href="#" class="header-menu__link">новости</a></li>
+        </ul>
+        <div class="nav-menu__toggle"></div>
+
+        <form class="search">
+            <div class="search-run">
+                <svg class="search-icon">
+                    <use xlink:href="img/icons.svg#search"></use>
+                </svg>
+            </div>
+            <div class="search-input">
+                <input type="search" class="search-field hide-placeholder" placeholder="Поиск...">
+                <button type="submit" class="search-button">
+                    <svg class="search-icon">
+                        <use xlink:href="img/icons.svg#search"></use>
+                    </svg>
+                </button>
+            </div>
+        </form>
+
+        <a href="#" class="basket">
+            <svg class="basket-image">
+                <use xlink:href="img/icons.svg#basket"></use>
+            </svg>
+        </a>
+    </div>
+
+</header>
+
+<main class="container slider-container">
+    <div class="main-slider">
+        <div class="main-slider__item">
+            <img class="main-slider__item-image" src="img/image-01.jpg" alt="">
+            <div class="main-slider__title">
+                <div class="main-slider__title-text">Monoteka-group — лучшие моменты
+                    жизни вместе с нашими платьями
+                </div>
+                <a class="main-slider__title-link" href="#">купить</a>
+            </div>
+        </div>
+        <div class="main-slider__item">
+            <img class="main-slider__item-image" src="img/image-01.jpg" alt="">
+            <div class="main-slider__title">
+                <div class="main-slider__title-text">Monoteka-group — лучшие моменты
+                    жизни вместе с нашими платьями
+                </div>
+                <a class="main-slider__title-link" href="#">купить</a>
+            </div>
+        </div>
+        <div class="main-slider__item">
+            <img class="main-slider__item-image" src="img/image-01.jpg" alt="">
+            <div class="main-slider__title">
+                <div class="main-slider__title-text">Monoteka-group — лучшие моменты
+                    жизни вместе с нашими платьями
+                </div>
+                <a class="main-slider__title-link" href="#">купить</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="gallery__block-styles">
+        <div class="gallery__styles-box">
+            <a href="#" class="gallery__joint-link">
+                <img class="gallery__joint-image" src="img/image-02.jpg" alt="">
+                <div class="gallery__styles-text">Пиджаки
+                    <span class="gallery__styles-link">в наших магазинах</span></div>
+            </a>
+        </div>
+
+        <div class="gallery__styles-box">
+            <a href="#" class="gallery__joint-link">
+                <img class="gallery__joint-image" src="img/image-03.jpg" alt="">
+                <div class="gallery__styles-text">Деловой стиль
+                    <span class="gallery__styles-link">узнать больше</span></div>
+            </a>
+        </div>
+    </div>
+
+</main>
+
+<nav class="container navigation-menu__container">
+    <ul class="navigation-menu__list">
+        <li class="navigation-menu__item"><a href="#" class="navigation-menu__link">платья</a></li>
+        <li class="navigation-menu__item"><a href="#" class="navigation-menu__link">шубы</a></li>
+        <li class="navigation-menu__item"><a href="#" class="navigation-menu__link">пиджаки</a></li>
+        <li class="navigation-menu__item"><a href="#" class="navigation-menu__link">блузки</a></li>
+        <li class="navigation-menu__item"><a href="#" class="navigation-menu__link">джинсы</a></li>
+        <li class="navigation-menu__item"><a href="#" class="navigation-menu__link">рубашки</a></li>
+    </ul>
+</nav>
+
+<section class="container gallery-container js__tab-wrap">
+
+    <ul class="filter-gallery js__tab-nav">
+        <li class="filter-gallery__link js__tab-nav__item active">Лучшие предложения недели</li>
+        <li class="filter-gallery__link js__tab-nav__item">Новинки</li>
+        <li class="filter-gallery__link js__tab-nav__item">Рекомендуем</li>
+    </ul>
+
+    <div class="tab-panel js__tab-panel active">
+        <div class="gallery-block init__slick">
+            <div class="gallery-product">
+                <div class="gallery-product__inner">
+                    <div class="gallery-product__media">
+                        <img class="gallery-product__image" src="img/image-10.jpg" alt="">
+                        <div class="gallery-product__top">
+                            <svg class="gallery-product__flag">
+                                <use xlink:href="img/countries.svg#france"></use>
+                            </svg>
+                            <div class="gallery-product__info">new</div>
+                        </div>
+                        <div class="gallery-product__card">
+                            <ul class="gallery-product__table">
+                                <li class="gallery-product__table-box">Материал</li>
+                                <li class="gallery-product__table-box">Хлопок</li>
+                                <li class="gallery-product__table-box">Сезон</li>
+                                <li class="gallery-product__table-box">Лето</li>
+                                <li class="gallery-product__table-box">Страна-производитель</li>
+                                <li class="gallery-product__table-box">Франция</li>
+                                <li class="gallery-product__table-box">Длина</li>
+                                <li class="gallery-product__table-box">Мини</li>
+                            </ul>
+                            <a href="#" class="gallery-product__card-link">Перейти в карточку</a>
+                        </div>
+                    </div>
+                    <div class="gallery-product__bottom">
+                        <div class="gallery-product__title">Кожаная юбка</div>
+
+                        <div class="gallery-product__text">Описание: Полосатая кофта из полосатого трикотажа, без
+                            молнии
+                        </div>
+                        <div class="gallery-product__parameters">
+                            <div class="gallery-product__size">
+                                <ul class="inner-sizes">
+                                    <li class="inner-sizes__item active">44</li>
+                                </ul>
+                                <div class="gallery-product__size-text">размер</div>
+                            </div>
+                            <div class="gallery-product__price">
+                                790 р.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-product">
+                <div class="gallery-product__inner">
+                    <div class="gallery-product__media">
+                        <img class="gallery-product__image" src="img/image-11.jpg" alt="">
+                        <div class="gallery-product__top">
+                            <svg class="gallery-product__flag">
+                                <use xlink:href="img/countries.svg#italy"></use>
+                            </svg>
+                            <div class="gallery-product__info">new</div>
+                        </div>
+                        <div class="gallery-product__card">
+                            <ul class="gallery-product__table">
+                                <li class="gallery-product__table-box">Материал</li>
+                                <li class="gallery-product__table-box">Хлопок</li>
+                                <li class="gallery-product__table-box">Сезон</li>
+                                <li class="gallery-product__table-box">Лето</li>
+                                <li class="gallery-product__table-box">Страна-производитель</li>
+                                <li class="gallery-product__table-box">Франция</li>
+                                <li class="gallery-product__table-box">Длина</li>
+                                <li class="gallery-product__table-box">Мини</li>
+                            </ul>
+                            <a href="#" class="gallery-product__card-link">Перейти в карточку</a>
+                        </div>
+                    </div>
+                    <div class="gallery-product__bottom">
+                        <div class="gallery-product__title">Кожаная юбка</div>
+
+                        <div class="gallery-product__text">Описание: Полосатая кофта из полосатого трикотажа, без
+                            молнии
+                        </div>
+                        <div class="gallery-product__parameters">
+                            <div class="gallery-product__size">
+                                <ul class="inner-sizes">
+                                    <li class="inner-sizes__item active">44</li>
+                                    <li class="inner-sizes__item">46</li>
+                                    <li class="inner-sizes__item">48</li>
+                                </ul>
+                                <div class="gallery-product__size-text">размер</div>
+                            </div>
+                            <div class="gallery-product__price">
+                                <span class="gallery-product__price-discount">1190 р.</span>
+                                790 р.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-product">
+                <div class="gallery-product__inner">
+                    <div class="gallery-product__media">
+                        <img class="gallery-product__image" src="img/image-12.jpg" alt="">
+                        <div class="gallery-product__top">
+                            <svg class="gallery-product__flag">
+                                <use xlink:href="img/countries.svg#france"></use>
+                            </svg>
+                            <div class="gallery-product__info">new</div>
+                        </div>
+                        <div class="gallery-product__card">
+                            <ul class="gallery-product__table">
+                                <li class="gallery-product__table-box">Материал</li>
+                                <li class="gallery-product__table-box">Хлопок</li>
+                                <li class="gallery-product__table-box">Сезон</li>
+                                <li class="gallery-product__table-box">Лето</li>
+                                <li class="gallery-product__table-box">Страна-производитель</li>
+                                <li class="gallery-product__table-box">Франция</li>
+                                <li class="gallery-product__table-box">Длина</li>
+                                <li class="gallery-product__table-box">Мини</li>
+                            </ul>
+                            <a href="#" class="gallery-product__card-link">Перейти в карточку</a>
+                        </div>
+                    </div>
+                    <div class="gallery-product__bottom">
+                        <div class="gallery-product__title">Кожаная юбка</div>
+
+                        <div class="gallery-product__text">Описание: Полосатая кофта из полосатого трикотажа, без
+                            молнии
+                        </div>
+                        <div class="gallery-product__parameters">
+                            <div class="gallery-product__size">
+                                <ul class="inner-sizes">
+                                    <li class="inner-sizes__item active">44</li>
+                                    <li class="inner-sizes__item">46</li>
+                                    <li class="inner-sizes__item">48</li>
+                                </ul>
+                                <div class="gallery-product__size-text">размер</div>
+                            </div>
+                            <div class="gallery-product__price">
+                                790 р.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-product">
+                <div class="gallery-product__inner">
+                    <div class="gallery-product__media">
+                        <img class="gallery-product__image" src="img/image-13.jpg" alt="">
+                        <div class="gallery-product__top">
+                            <svg class="gallery-product__flag">
+                                <use xlink:href="img/countries.svg#france"></use>
+                            </svg>
+                            <div class="gallery-product__info">new</div>
+                        </div>
+                        <div class="gallery-product__card">
+                            <ul class="gallery-product__table">
+                                <li class="gallery-product__table-box">Материал</li>
+                                <li class="gallery-product__table-box">Хлопок</li>
+                                <li class="gallery-product__table-box">Сезон</li>
+                                <li class="gallery-product__table-box">Лето</li>
+                                <li class="gallery-product__table-box">Страна-производитель</li>
+                                <li class="gallery-product__table-box">Франция</li>
+                                <li class="gallery-product__table-box">Длина</li>
+                                <li class="gallery-product__table-box">Мини</li>
+                            </ul>
+                            <a href="#" class="gallery-product__card-link">Перейти в карточку</a>
+                        </div>
+                    </div>
+                    <div class="gallery-product__bottom">
+                        <div class="gallery-product__title">Кожаная юбка</div>
+
+                        <div class="gallery-product__text">Описание: Полосатая кофта из полосатого трикотажа, без
+                            молнии
+                        </div>
+                        <div class="gallery-product__parameters">
+                            <div class="gallery-product__size">
+                                <ul class="inner-sizes">
+                                    <li class="inner-sizes__item active">44</li>
+                                </ul>
+                                <div class="gallery-product__size-text">размер</div>
+                            </div>
+                            <div class="gallery-product__price">
+                                790 р.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-product">
+                <div class="gallery-product__inner">
+                    <div class="gallery-product__media">
+                        <img class="gallery-product__image" src="img/image-13.jpg" alt="">
+                        <div class="gallery-product__top">
+                            <svg class="gallery-product__flag">
+                                <use xlink:href="img/countries.svg#france"></use>
+                            </svg>
+                            <div class="gallery-product__info">new</div>
+                        </div>
+                        <div class="gallery-product__card">
+                            <ul class="gallery-product__table">
+                                <li class="gallery-product__table-box">Материал</li>
+                                <li class="gallery-product__table-box">Хлопок</li>
+                                <li class="gallery-product__table-box">Сезон</li>
+                                <li class="gallery-product__table-box">Лето</li>
+                                <li class="gallery-product__table-box">Страна-производитель</li>
+                                <li class="gallery-product__table-box">Франция</li>
+                                <li class="gallery-product__table-box">Длина</li>
+                                <li class="gallery-product__table-box">Мини</li>
+                            </ul>
+                            <a href="#" class="gallery-product__card-link">Перейти в карточку</a>
+                        </div>
+                    </div>
+                    <div class="gallery-product__bottom">
+                        <div class="gallery-product__title">Кожаная юбка</div>
+
+                        <div class="gallery-product__text">Описание: Полосатая кофта из полосатого трикотажа, без
+                            молнии
+                        </div>
+                        <div class="gallery-product__parameters">
+                            <div class="gallery-product__size">
+                                <ul class="inner-sizes">
+                                    <li class="inner-sizes__item active">44</li>
+                                </ul>
+                                <div class="gallery-product__size-text">размер</div>
+                            </div>
+                            <div class="gallery-product__price">
+                                790 р.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tab-panel js__tab-panel">
+        <div class="gallery-block init__slick">
+
+            <div class="gallery-product">
+                <div class="gallery-product__inner">
+                    <div class="gallery-product__media">
+                        <img class="gallery-product__image" src="img/image-11.jpg" alt="">
+                        <div class="gallery-product__top">
+                            <svg class="gallery-product__flag">
+                                <use xlink:href="img/countries.svg#italy"></use>
+                            </svg>
+                            <div class="gallery-product__info">new</div>
+                        </div>
+                        <div class="gallery-product__card">
+                            <ul class="gallery-product__table">
+                                <li class="gallery-product__table-box">Материал</li>
+                                <li class="gallery-product__table-box">Хлопок</li>
+                                <li class="gallery-product__table-box">Сезон</li>
+                                <li class="gallery-product__table-box">Лето</li>
+                                <li class="gallery-product__table-box">Страна-производитель</li>
+                                <li class="gallery-product__table-box">Франция</li>
+                                <li class="gallery-product__table-box">Длина</li>
+                                <li class="gallery-product__table-box">Мини</li>
+                            </ul>
+                            <a href="#" class="gallery-product__card-link">Перейти в карточку</a>
+                        </div>
+                    </div>
+                    <div class="gallery-product__bottom">
+                        <div class="gallery-product__title">Кожаная юбка</div>
+
+                        <div class="gallery-product__text">Описание: Полосатая кофта из полосатого трикотажа, без
+                            молнии
+                        </div>
+                        <div class="gallery-product__parameters">
+                            <div class="gallery-product__size">
+                                <ul class="inner-sizes">
+                                    <li class="inner-sizes__item active">44</li>
+                                    <li class="inner-sizes__item">46</li>
+                                    <li class="inner-sizes__item">48</li>
+                                </ul>
+                                <div class="gallery-product__size-text">размер</div>
+                            </div>
+                            <div class="gallery-product__price">
+                                <span class="gallery-product__price-discount">1190 р.</span>
+                                790 р.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-product">
+                <div class="gallery-product__inner">
+                    <div class="gallery-product__media">
+                        <img class="gallery-product__image" src="img/image-10.jpg" alt="">
+                        <div class="gallery-product__top">
+                            <svg class="gallery-product__flag">
+                                <use xlink:href="img/countries.svg#france"></use>
+                            </svg>
+                            <div class="gallery-product__info">new</div>
+                        </div>
+                        <div class="gallery-product__card">
+                            <ul class="gallery-product__table">
+                                <li class="gallery-product__table-box">Материал</li>
+                                <li class="gallery-product__table-box">Хлопок</li>
+                                <li class="gallery-product__table-box">Сезон</li>
+                                <li class="gallery-product__table-box">Лето</li>
+                                <li class="gallery-product__table-box">Страна-производитель</li>
+                                <li class="gallery-product__table-box">Франция</li>
+                                <li class="gallery-product__table-box">Длина</li>
+                                <li class="gallery-product__table-box">Мини</li>
+                            </ul>
+                            <a href="#" class="gallery-product__card-link">Перейти в карточку</a>
+                        </div>
+                    </div>
+                    <div class="gallery-product__bottom">
+                        <div class="gallery-product__title">Кожаная юбка</div>
+
+                        <div class="gallery-product__text">Описание: Полосатая кофта из полосатого трикотажа, без
+                            молнии
+                        </div>
+                        <div class="gallery-product__parameters">
+                            <div class="gallery-product__size">
+                                <ul class="inner-sizes">
+                                    <li class="inner-sizes__item active">44</li>
+                                </ul>
+                                <div class="gallery-product__size-text">размер</div>
+                            </div>
+                            <div class="gallery-product__price">
+                                790 р.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-product">
+                <div class="gallery-product__inner">
+                    <div class="gallery-product__media">
+                        <img class="gallery-product__image" src="img/image-11.jpg" alt="">
+                        <div class="gallery-product__top">
+                            <svg class="gallery-product__flag">
+                                <use xlink:href="img/countries.svg#italy"></use>
+                            </svg>
+                            <div class="gallery-product__info">new</div>
+                        </div>
+                        <div class="gallery-product__card">
+                            <ul class="gallery-product__table">
+                                <li class="gallery-product__table-box">Материал</li>
+                                <li class="gallery-product__table-box">Хлопок</li>
+                                <li class="gallery-product__table-box">Сезон</li>
+                                <li class="gallery-product__table-box">Лето</li>
+                                <li class="gallery-product__table-box">Страна-производитель</li>
+                                <li class="gallery-product__table-box">Франция</li>
+                                <li class="gallery-product__table-box">Длина</li>
+                                <li class="gallery-product__table-box">Мини</li>
+                            </ul>
+                            <a href="#" class="gallery-product__card-link">Перейти в карточку</a>
+                        </div>
+                    </div>
+                    <div class="gallery-product__bottom">
+                        <div class="gallery-product__title">Кожаная юбка</div>
+
+                        <div class="gallery-product__text">Описание: Полосатая кофта из полосатого трикотажа, без
+                            молнии
+                        </div>
+                        <div class="gallery-product__parameters">
+                            <div class="gallery-product__size">
+                                <ul class="inner-sizes">
+                                    <li class="inner-sizes__item active">44</li>
+                                    <li class="inner-sizes__item">46</li>
+                                    <li class="inner-sizes__item">48</li>
+                                </ul>
+                                <div class="gallery-product__size-text">размер</div>
+                            </div>
+                            <div class="gallery-product__price">
+                                <span class="gallery-product__price-discount">1190 р.</span>
+                                790 р.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-product">
+                <div class="gallery-product__inner">
+                    <div class="gallery-product__media">
+                        <img class="gallery-product__image" src="img/image-13.jpg" alt="">
+                        <div class="gallery-product__top">
+                            <svg class="gallery-product__flag">
+                                <use xlink:href="img/countries.svg#france"></use>
+                            </svg>
+                            <div class="gallery-product__info">new</div>
+                        </div>
+                        <div class="gallery-product__card">
+                            <ul class="gallery-product__table">
+                                <li class="gallery-product__table-box">Материал</li>
+                                <li class="gallery-product__table-box">Хлопок</li>
+                                <li class="gallery-product__table-box">Сезон</li>
+                                <li class="gallery-product__table-box">Лето</li>
+                                <li class="gallery-product__table-box">Страна-производитель</li>
+                                <li class="gallery-product__table-box">Франция</li>
+                                <li class="gallery-product__table-box">Длина</li>
+                                <li class="gallery-product__table-box">Мини</li>
+                            </ul>
+                            <a href="#" class="gallery-product__card-link">Перейти в карточку</a>
+                        </div>
+                    </div>
+                    <div class="gallery-product__bottom">
+                        <div class="gallery-product__title">Кожаная юбка</div>
+
+                        <div class="gallery-product__text">Описание: Полосатая кофта из полосатого трикотажа, без
+                            молнии
+                        </div>
+                        <div class="gallery-product__parameters">
+                            <div class="gallery-product__size">
+                                <ul class="inner-sizes">
+                                    <li class="inner-sizes__item active">44</li>
+                                </ul>
+                                <div class="gallery-product__size-text">размер</div>
+                            </div>
+                            <div class="gallery-product__price">
+                                790 р.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-product">
+                <div class="gallery-product__inner">
+                    <div class="gallery-product__media">
+                        <img class="gallery-product__image" src="img/image-12.jpg" alt="">
+                        <div class="gallery-product__top">
+                            <svg class="gallery-product__flag">
+                                <use xlink:href="img/countries.svg#france"></use>
+                            </svg>
+                            <div class="gallery-product__info">new</div>
+                        </div>
+                        <div class="gallery-product__card">
+                            <ul class="gallery-product__table">
+                                <li class="gallery-product__table-box">Материал</li>
+                                <li class="gallery-product__table-box">Хлопок</li>
+                                <li class="gallery-product__table-box">Сезон</li>
+                                <li class="gallery-product__table-box">Лето</li>
+                                <li class="gallery-product__table-box">Страна-производитель</li>
+                                <li class="gallery-product__table-box">Франция</li>
+                                <li class="gallery-product__table-box">Длина</li>
+                                <li class="gallery-product__table-box">Мини</li>
+                            </ul>
+                            <a href="#" class="gallery-product__card-link">Перейти в карточку</a>
+                        </div>
+                    </div>
+                    <div class="gallery-product__bottom">
+                        <div class="gallery-product__title">Кожаная юбка</div>
+
+                        <div class="gallery-product__text">Описание: Полосатая кофта из полосатого трикотажа, без
+                            молнии
+                        </div>
+                        <div class="gallery-product__parameters">
+                            <div class="gallery-product__size">
+                                <ul class="inner-sizes">
+                                    <li class="inner-sizes__item active">44</li>
+                                    <li class="inner-sizes__item">46</li>
+                                    <li class="inner-sizes__item">48</li>
+                                </ul>
+                                <div class="gallery-product__size-text">размер</div>
+                            </div>
+                            <div class="gallery-product__price">
+                                790 р.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="tab-panel js__tab-panel">
+        <div class="gallery-block init__slick">
+            <div class="gallery-product">
+                <div class="gallery-product__inner">
+                    <div class="gallery-product__media">
+                        <img class="gallery-product__image" src="img/image-12.jpg" alt="">
+                        <div class="gallery-product__top">
+                            <svg class="gallery-product__flag">
+                                <use xlink:href="img/countries.svg#france"></use>
+                            </svg>
+                            <div class="gallery-product__info">new</div>
+                        </div>
+                        <div class="gallery-product__card">
+                            <ul class="gallery-product__table">
+                                <li class="gallery-product__table-box">Материал</li>
+                                <li class="gallery-product__table-box">Хлопок</li>
+                                <li class="gallery-product__table-box">Сезон</li>
+                                <li class="gallery-product__table-box">Лето</li>
+                                <li class="gallery-product__table-box">Страна-производитель</li>
+                                <li class="gallery-product__table-box">Франция</li>
+                                <li class="gallery-product__table-box">Длина</li>
+                                <li class="gallery-product__table-box">Мини</li>
+                            </ul>
+                            <a href="#" class="gallery-product__card-link">Перейти в карточку</a>
+                        </div>
+                    </div>
+                    <div class="gallery-product__bottom">
+                        <div class="gallery-product__title">Кожаная юбка</div>
+
+                        <div class="gallery-product__text">Описание: Полосатая кофта из полосатого трикотажа, без
+                            молнии
+                        </div>
+                        <div class="gallery-product__parameters">
+                            <div class="gallery-product__size">
+                                <ul class="inner-sizes">
+                                    <li class="inner-sizes__item active">44</li>
+                                    <li class="inner-sizes__item">46</li>
+                                    <li class="inner-sizes__item">48</li>
+                                </ul>
+                                <div class="gallery-product__size-text">размер</div>
+                            </div>
+                            <div class="gallery-product__price">
+                                790 р.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-product">
+                <div class="gallery-product__inner">
+                    <div class="gallery-product__media">
+                        <img class="gallery-product__image" src="img/image-10.jpg" alt="">
+                        <div class="gallery-product__top">
+                            <svg class="gallery-product__flag">
+                                <use xlink:href="img/countries.svg#france"></use>
+                            </svg>
+                            <div class="gallery-product__info">new</div>
+                        </div>
+                        <div class="gallery-product__card">
+                            <ul class="gallery-product__table">
+                                <li class="gallery-product__table-box">Материал</li>
+                                <li class="gallery-product__table-box">Хлопок</li>
+                                <li class="gallery-product__table-box">Сезон</li>
+                                <li class="gallery-product__table-box">Лето</li>
+                                <li class="gallery-product__table-box">Страна-производитель</li>
+                                <li class="gallery-product__table-box">Франция</li>
+                                <li class="gallery-product__table-box">Длина</li>
+                                <li class="gallery-product__table-box">Мини</li>
+                            </ul>
+                            <a href="#" class="gallery-product__card-link">Перейти в карточку</a>
+                        </div>
+                    </div>
+                    <div class="gallery-product__bottom">
+                        <div class="gallery-product__title">Кожаная юбка</div>
+
+                        <div class="gallery-product__text">Описание: Полосатая кофта из полосатого трикотажа, без
+                            молнии
+                        </div>
+                        <div class="gallery-product__parameters">
+                            <div class="gallery-product__size">
+                                <ul class="inner-sizes">
+                                    <li class="inner-sizes__item active">44</li>
+                                </ul>
+                                <div class="gallery-product__size-text">размер</div>
+                            </div>
+                            <div class="gallery-product__price">
+                                790 р.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-product">
+                <div class="gallery-product__inner">
+                    <div class="gallery-product__media">
+                        <img class="gallery-product__image" src="img/image-11.jpg" alt="">
+                        <div class="gallery-product__top">
+                            <svg class="gallery-product__flag">
+                                <use xlink:href="img/countries.svg#italy"></use>
+                            </svg>
+                            <div class="gallery-product__info">new</div>
+                        </div>
+                        <div class="gallery-product__card">
+                            <ul class="gallery-product__table">
+                                <li class="gallery-product__table-box">Материал</li>
+                                <li class="gallery-product__table-box">Хлопок</li>
+                                <li class="gallery-product__table-box">Сезон</li>
+                                <li class="gallery-product__table-box">Лето</li>
+                                <li class="gallery-product__table-box">Страна-производитель</li>
+                                <li class="gallery-product__table-box">Франция</li>
+                                <li class="gallery-product__table-box">Длина</li>
+                                <li class="gallery-product__table-box">Мини</li>
+                            </ul>
+                            <a href="#" class="gallery-product__card-link">Перейти в карточку</a>
+                        </div>
+                    </div>
+                    <div class="gallery-product__bottom">
+                        <div class="gallery-product__title">Кожаная юбка</div>
+
+                        <div class="gallery-product__text">Описание: Полосатая кофта из полосатого трикотажа, без
+                            молнии
+                        </div>
+                        <div class="gallery-product__parameters">
+                            <div class="gallery-product__size">
+                                <ul class="inner-sizes">
+                                    <li class="inner-sizes__item active">44</li>
+                                    <li class="inner-sizes__item">46</li>
+                                    <li class="inner-sizes__item">48</li>
+                                </ul>
+                                <div class="gallery-product__size-text">размер</div>
+                            </div>
+                            <div class="gallery-product__price">
+                                <span class="gallery-product__price-discount">1190 р.</span>
+                                790 р.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-product">
+                <div class="gallery-product__inner">
+                    <div class="gallery-product__media">
+                        <img class="gallery-product__image" src="img/image-13.jpg" alt="">
+                        <div class="gallery-product__top">
+                            <svg class="gallery-product__flag">
+                                <use xlink:href="img/countries.svg#france"></use>
+                            </svg>
+                            <div class="gallery-product__info">new</div>
+                        </div>
+                        <div class="gallery-product__card">
+                            <ul class="gallery-product__table">
+                                <li class="gallery-product__table-box">Материал</li>
+                                <li class="gallery-product__table-box">Хлопок</li>
+                                <li class="gallery-product__table-box">Сезон</li>
+                                <li class="gallery-product__table-box">Лето</li>
+                                <li class="gallery-product__table-box">Страна-производитель</li>
+                                <li class="gallery-product__table-box">Франция</li>
+                                <li class="gallery-product__table-box">Длина</li>
+                                <li class="gallery-product__table-box">Мини</li>
+                            </ul>
+                            <a href="#" class="gallery-product__card-link">Перейти в карточку</a>
+                        </div>
+                    </div>
+                    <div class="gallery-product__bottom">
+                        <div class="gallery-product__title">Кожаная юбка</div>
+
+                        <div class="gallery-product__text">Описание: Полосатая кофта из полосатого трикотажа, без
+                            молнии
+                        </div>
+                        <div class="gallery-product__parameters">
+                            <div class="gallery-product__size">
+                                <ul class="inner-sizes">
+                                    <li class="inner-sizes__item active">44</li>
+                                </ul>
+                                <div class="gallery-product__size-text">размер</div>
+                            </div>
+                            <div class="gallery-product__price">
+                                790 р.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-product">
+                <div class="gallery-product__inner">
+                    <div class="gallery-product__media">
+                        <img class="gallery-product__image" src="img/image-11.jpg" alt="">
+                        <div class="gallery-product__top">
+                            <svg class="gallery-product__flag">
+                                <use xlink:href="img/countries.svg#italy"></use>
+                            </svg>
+                            <div class="gallery-product__info">new</div>
+                        </div>
+                        <div class="gallery-product__card">
+                            <ul class="gallery-product__table">
+                                <li class="gallery-product__table-box">Материал</li>
+                                <li class="gallery-product__table-box">Хлопок</li>
+                                <li class="gallery-product__table-box">Сезон</li>
+                                <li class="gallery-product__table-box">Лето</li>
+                                <li class="gallery-product__table-box">Страна-производитель</li>
+                                <li class="gallery-product__table-box">Франция</li>
+                                <li class="gallery-product__table-box">Длина</li>
+                                <li class="gallery-product__table-box">Мини</li>
+                            </ul>
+                            <a href="#" class="gallery-product__card-link">Перейти в карточку</a>
+                        </div>
+                    </div>
+                    <div class="gallery-product__bottom">
+                        <div class="gallery-product__title">Кожаная юбка</div>
+
+                        <div class="gallery-product__text">Описание: Полосатая кофта из полосатого трикотажа, без
+                            молнии
+                        </div>
+                        <div class="gallery-product__parameters">
+                            <div class="gallery-product__size">
+                                <ul class="inner-sizes">
+                                    <li class="inner-sizes__item active">44</li>
+                                    <li class="inner-sizes__item">46</li>
+                                    <li class="inner-sizes__item">48</li>
+                                </ul>
+                                <div class="gallery-product__size-text">размер</div>
+                            </div>
+                            <div class="gallery-product__price">
+                                <span class="gallery-product__price-discount">1190 р.</span>
+                                790 р.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Begin Scripts -->
+<script src="js/script.js"></script>
+<!-- End Scripts -->
+</body>
+</html>

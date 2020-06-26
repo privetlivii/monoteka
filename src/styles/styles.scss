@@ -1,0 +1,14 @@
+/* BEGIN plugin styles */
+@import "lib/bootstrap-reboot";
+@import "lib/slick";
+
+/* BEGIN general styles */
+@import "general/variable";
+@import "general/mixins";
+@import "general/general";
+
+/* BEGIN blocks styles */
+@import "blocks/header";
+@import "blocks/main-slider";
+@import "blocks/nav";
+@import "blocks/gallery";
